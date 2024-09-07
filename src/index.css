@@ -2,22 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.scroll-watcher{
-  height: 10px;
-  position: fixed;
-  top:0;
-  z-index: 1000;
-  background-color: yellowgreen;
-  width: 100%;
-  scale: 0.5 1;
-  animation: scroll-watcher linear;
-  animation-timeline: scroll();
-}
-
-@keyframes scroll-watcher {
-  to{scale: 1 1;}
-}
-
 .hide{
   opacity: 0;
   filter: blur(5px);
