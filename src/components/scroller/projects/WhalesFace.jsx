@@ -9,7 +9,7 @@ const WhalesFace = () => {
     >
       <div className="flex flex-col w-full h-auto items-center bg-white border border-gray-200 rounded-lg shadow lg:flex-row hover:bg-gray-100">
         <img
-          className="object-cover mt-4 mb-4  w-11/12 ml-4 rounded-t-lg md:h-auto md:rounded-none md:rounded-s-lg"
+          className="object-cover mt-4 mb-4 max-w-xs w-11/12 ml-4 rounded-t-lg md:h-auto md:rounded-none md:rounded-s-lg"
           src={FlyingWhaleTeaser}
           alt=""
         />

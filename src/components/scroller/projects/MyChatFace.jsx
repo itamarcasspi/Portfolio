@@ -7,7 +7,7 @@ const MyChatFace = () => {
           <div 
           className="flex flex-col w-full h-auto items-center bg-white border border-gray-200  shadow lg:flex-row hover:bg-gray-100">
             <img
-              className="object-cover mt-4 mb-4  w-4/5 ml-4 rounded-t-lg md:h-auto md:rounded-none md:rounded-s-lg"
+              className="object-cover max-w-xs mt-4 mb-4  w-4/5 ml-4 rounded-t-lg md:h-auto md:rounded-none md:rounded-s-lg"
               src={Chat}
               alt=""
               
